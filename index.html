@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>snow</title>
+    <link rel="stylesheet" href="css/font.css">
+    <style>
+        html,body{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+            /*background: black;*/
+            position:fixed;
+            top: 0;
+            left:0;
+            bottom:0;
+            right:0;
+            margin: auto;
+            overflow: hidden;
+            background: url("images/bg.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+    </style>
+    <script src="js/jQuery.js"></script>
+    <script src="js/touch-0.2.14.min.js"></script>
+    <script>
+        window.onload=function() {
+            var arr=[];
+            var clientW=document.documentElement.clientWidth;
+            var clientH=document.documentElement.clientHeight;
+            for(var i=0;i<30;i++){
+                var div=document.createElement("div");
+                var lefts=10+(clientW-50)*Math.random();
+                var time=3*Math.random();
+                var picid=Math.floor(Math.random()*5+1);
+//                console.log(picid);
+                div.setAttribute("data-a","animate-xuanzhuan");
+                div.style.cssText="width:50px;height:50px;background:url"+("images/snow-"+picid+".png")+";position:absolute;top:-50px;left:"+lefts+"px;z-index:999;transition:top 3s linear "+time+"s;-webkit-filter:blur(1px)";
+                document.body.appendChild(div);
+                arr.push(div);
+            }
+
+            setTimeout(function () {
+                for(var i=0;i<arr.length;i++){
+                    arr[i].style.top=clientH+"px";
+                    arr[i].addEventListener("webkitTransitionEnd",function(){  //监听事件
+                        var that=this;
+                        this.style.transition="none";
+                        this.style.top="-60px";
+                        var time=3*Math.random();
+                        setTimeout(function(){
+                            var picid=Math.floor(Math.random()*5+1);
+                            that.style.transition="top 3s linear "+time+"s";
+                            that.style.background="url(images/snow-"+picid+".png)";
+                            that.style.top=clientH+"px";
+                        },0);
+                    },false);
+                }
+            }, 0);
+
+        }
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

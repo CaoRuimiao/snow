@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'demo';
+  src: url('../font/tm/iconfont.ttf');
+}
+@font-face {
+  font-family: 'animatefont';
+  src: url('../font/animate/iconfont.ttf');
+}
+*[data-role=ziliao]:before {
+  content: "\e604";
+  font-family: "animatefont";
+}
+*[data-role=ziliao][icon-pos=top]:before {
+  display: block;
+  content: "\e604";
+  font-family: "demo";
+}
+*[data-role=ziliao][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=ziliao][icon-pos=right]:after {
+  content: "\e604";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=ziliao][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=ziliao][icon-pos=bottom]:after {
+  display: block;
+  content: "\e604";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=zoom]:before {
+  content: "\e603";
+  font-family: "animatefont";
+}
+*[data-role=zoom][icon-pos=top]:before {
+  display: block;
+  content: "\e603";
+  font-family: "demo";
+}
+*[data-role=zoom][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=zoom][icon-pos=right]:after {
+  content: "\e603";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=zoom][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=zoom][icon-pos=bottom]:after {
+  display: block;
+  content: "\e603";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=book]:before {
+  content: "\e600";
+  font-family: "animatefont";
+}
+*[data-role=book][icon-pos=top]:before {
+  display: block;
+  content: "\e600";
+  font-family: "demo";
+}
+*[data-role=book][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=book][icon-pos=right]:after {
+  content: "\e600";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=book][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=book][icon-pos=bottom]:after {
+  display: block;
+  content: "\e600";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=yumao]:before {
+  content: "\e601";
+  font-family: "animatefont";
+}
+*[data-role=yumao][icon-pos=top]:before {
+  display: block;
+  content: "\e601";
+  font-family: "demo";
+}
+*[data-role=yumao][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=yumao][icon-pos=right]:after {
+  content: "\e601";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=yumao][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=yumao][icon-pos=bottom]:after {
+  display: block;
+  content: "\e601";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=message]:before {
+  content: "\e602";
+  font-family: "animatefont";
+}
+*[data-role=message][icon-pos=top]:before {
+  display: block;
+  content: "\e602";
+  font-family: "demo";
+}
+*[data-role=message][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=message][icon-pos=right]:after {
+  content: "\e602";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=message][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=message][icon-pos=bottom]:after {
+  display: block;
+  content: "\e602";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=wheel]:before {
+  content: "\e605";
+  font-family: "animatefont";
+}
+*[data-role=wheel][icon-pos=top]:before {
+  display: block;
+  content: "\e605";
+  font-family: "demo";
+}
+*[data-role=wheel][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=wheel][icon-pos=right]:after {
+  content: "\e605";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=wheel][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=wheel][icon-pos=bottom]:after {
+  display: block;
+  content: "\e605";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=yiyaobaojian]:before {
+  content: "\e60e";
+  font-family: "animatefont";
+}
+*[data-role=yiyaobaojian][icon-pos=top]:before {
+  display: block;
+  content: "\e60e";
+  font-family: "demo";
+}
+*[data-role=yiyaobaojian][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=yiyaobaojian][icon-pos=right]:after {
+  content: "\e60e";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=yiyaobaojian][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=yiyaobaojian][icon-pos=bottom]:after {
+  display: block;
+  content: "\e60e";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=tushuyinxiang]:before {
+  content: "\e60f";
+  font-family: "animatefont";
+}
+*[data-role=tushuyinxiang][icon-pos=top]:before {
+  display: block;
+  content: "\e60f";
+  font-family: "demo";
+}
+*[data-role=tushuyinxiang][icon-pos=right]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=tushuyinxiang][icon-pos=right]:after {
+  content: "\e60f";
+  font-family: "demo";
+  text-align: center;
+}
+*[data-role=tushuyinxiang][icon-pos=bottom]:before {
+  content: "";
+  font-family: "demo";
+}
+*[data-role=tushuyinxiang][icon-pos=bottom]:after {
+  display: block;
+  content: "\e60f";
+  font-family: "demo";
+  text-align: center;
+}
